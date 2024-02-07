@@ -19,7 +19,7 @@
 
 [warp+机器人](https://t.me/generatewarpplusbot)
 
-然后本地创建一个yaml文件，参考：[issues #20](https://github.com/vveg26/chromego_merge/issues/20)
+然后本地创建一个yaml文件，参考：[issues #20](https://github.com/mianayang/chromego_merge/issues/20)
 
 </details>
 
