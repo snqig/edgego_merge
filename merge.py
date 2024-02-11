@@ -229,7 +229,7 @@ def process_hysteria(data, index):
         auth = json_data.get("auth_str", "")
         # 生成URL
         location = get_physical_location(server)
-        name = f"{location}_hysteria_{index}"
+        name = f"{location} hy {index}"
         hysteria = f"hysteria://{server}?peer={server_name}&auth={auth}&insecure={insecure}&upmbps={up_mbps}&downmbps={down_mbps}&alpn={alpn}&obfs={obfs}&protocol={protocol}&fastopen={fast_open}#{name}"
         merged_proxies.append(hysteria)
 
@@ -248,7 +248,7 @@ def process_hysteria2(data, index):
         auth = json_data["auth"]
         # 生成URL
         location = get_physical_location(server)
-        name = f"{location}_hysteria2_{index}"
+        name = f"{location} hy2 {index}"
         hysteria2 = f"hysteria2://{auth}@{server}?insecure={insecure}&sni={sni}#{name}"
 
         merged_proxies.append(hysteria2)
@@ -299,7 +299,7 @@ def process_xray(data, index):
             ws_path = ws_settings.get("path", "")
             ws_headers_host = ws_settings.get("headers", {}).get("Host", "")
             location = get_physical_location(server)
-            name = f"{location}_vless_{index}"
+            name = f"{location} vless {index}"
             xray_proxy = f"vless://{uuid}@{server}:{port}?security={security}&allowInsecure={insecure}&flow={flow}&type={network}&fp={fp}&pbk={publicKey}&sid={short_id}&sni={sni}&serviceName={grpc_serviceName}&path={ws_path}&host={ws_headers_host}#{name}"
 
             # 将当前proxy字典添加到所有proxies列表中
