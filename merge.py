@@ -75,7 +75,7 @@ def process_clash(data, index):
                     else:
                         security = 'tls'
                     location = get_physical_location(server)
-                    name = f"{location}_vless_{index}"
+                    name = f"{location} vless {index}"
                     vless_meta =  f"vless://{uuid}@{server}:{port}?security={security}&allowInsecure{insecure}&flow={flow}&type={network}&fp={fp}&pbk={publicKey}&sid={short_id}&sni={sni}&serviceName={grpc_serviceName}&path={ws_path}&host={ws_headers_host}#{name}"
 
                     merged_proxies.append(vless_meta)
@@ -96,7 +96,7 @@ def process_clash(data, index):
                     ws_path = proxy.get('ws-opts', {}).get('path', '')
                     ws_headers_host = proxy.get('ws-opts', {}).get('headers', {}).get('Host', '')
                     location = get_physical_location(server)
-                    name = f"{location}_vmess_{index}"
+                    name = f"{location} vmess {index}"
                     vmess_meta =  f"vmess://{uuid}@{server}:{port}?security={security}&allowInsecure{insecure}&type={network}&fp={fp}&sni={sni}&path={ws_path}&host={ws_headers_host}#{name}"
 
                     merged_proxies.append(vmess_meta)
@@ -112,7 +112,7 @@ def process_clash(data, index):
                     congestion = proxy.get("congestion-controller", "bbr")
                     alpn = proxy.get("alpn", [])[0] if proxy.get("alpn") and len(proxy["alpn"]) > 0 else None
                     location = get_physical_location(server)
-                    name = f"{location}_tuic_{index}"
+                    name = f"{location} tuic {index}"
                     #tuic_meta_neko = f"tuic://{server}:{port}?uuid={uuid}&version=5&password={password}&insecure={insecure}&alpn={alpn}&mode={udp_relay_mode}"
                     tuic_meta = f"tuic://{uuid}:{password}@{server}:{port}?sni={sni}&congestion_control={congestion}&udp_relay_mode={udp_relay_mode}&alpn={alpn}&allow_insecure={insecure}#{name}"
                     merged_proxies.append(tuic_meta)
@@ -126,7 +126,7 @@ def process_clash(data, index):
                     sni = proxy.get("sni", "")
                     insecure = int(proxy.get("skip-cert-verify", 0))
                     location = get_physical_location(server)
-                    name = f"{location}_hy2_{index}"
+                    name = f"{location} hy2 {index}"
                     hy2_meta = f"hysteria2://{auth}@{server}:{port}?insecure={insecure}&sni={sni}&obfs={obfs}&obfs-password={obfs_password}#{name}"
                     merged_proxies.append(hy2_meta)
 
