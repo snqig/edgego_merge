@@ -26,7 +26,7 @@ def process_clash(data, index):
     proxies = content.get('proxies', [])
     for i, proxy in enumerate(proxies):
         location = get_physical_location(proxy['server'])
-        proxy['name'] = f"{location} {proxy['type']} {index}{i+1}"
+        proxy['name'] = f"{location}_{proxy['type']}_{index}{i+1}"
     merged_proxies.extend(proxies)
 
 def get_physical_location(address):
@@ -62,7 +62,7 @@ def process_sb(data, index):
         shadowtls_password = json_data["outbounds"][1]["password"]
         version = json_data["outbounds"][1]["version"]
         location = get_physical_location(server)
-        name = f"{location}_shadowtls_{index}"
+        name = f"{location} shadowtls {index}"
         # 创建当前网址的proxy字典
         proxy = {
             "name": name,
@@ -109,7 +109,7 @@ def process_hysteria(data, index):
         alpn = json_data["alpn"]
         protocol = json_data["protocol"]
         location = get_physical_location(server)
-        name = f"{location}_hy_{index}"
+        name = f"{location} hy {index}"
 
         # 创建当前网址的proxy字典
         proxy = {
@@ -151,7 +151,7 @@ def process_hysteria2(data, index):
         insecure = json_data["tls"]["insecure"]
         sni = json_data["tls"]["sni"]
         location = get_physical_location(server)
-        name = f"{location}_hy2_{index}"
+        name = f"{location} hy2 {index}"
 
         # 创建当前网址的proxy字典
         proxy = {
@@ -194,7 +194,7 @@ def process_xray(data, index):
             # udp转发
             isudp = True
             location = get_physical_location(server)
-            name = f"{location}_reality_{index}"
+            name = f"{location} reality {index}"
             
             # 根据network判断tcp
             if network == "tcp":
@@ -311,5 +311,4 @@ with open('./sub/merged_warp_proxies_new.yaml', 'w', encoding='utf-8') as file:
     yaml.dump(config_warp_data, file, sort_keys=False, allow_unicode=True)
 
 print("聚合完成")
-
 
