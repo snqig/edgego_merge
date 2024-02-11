@@ -1,4 +1,4 @@
-    import yaml
+import yaml
 import json
 import urllib.request
 import logging
