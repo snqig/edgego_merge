@@ -106,9 +106,9 @@
         "auto",
         "direct",
         "🇺🇸 United States_vless_0",
-        "XKNde7AP_vmess",
+        "🇨🇭 BBNCHnCi_vmess",
         "🇫🇷 France_vless_2",
-        "cW51K5Zd_vmess",
+        "🇲🇰 hkJsMK70_vmess",
         "🇺🇸 United States_vless_4",
         "None_vless_5",
         "None_vless_52",
@@ -479,6 +479,7 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
+        "🇲🇰 hkJsMK70_vmess",
         "proxy"
       ]
     },
@@ -563,9 +564,8 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "XKNde7AP_vmess",
+        "🇨🇭 BBNCHnCi_vmess",
         "🇫🇷 France_vless_2",
-        "cW51K5Zd_vmess",
         "None_vless_5",
         "None_vless_52",
         "None_vless_53",
@@ -679,9 +679,9 @@
       "type": "urltest",
       "outbounds": [
         "🇺🇸 United States_vless_0",
-        "XKNde7AP_vmess",
+        "🇨🇭 BBNCHnCi_vmess",
         "🇫🇷 France_vless_2",
-        "cW51K5Zd_vmess",
+        "🇲🇰 hkJsMK70_vmess",
         "🇺🇸 United States_vless_4",
         "None_vless_5",
         "None_vless_52",
@@ -861,7 +861,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "XKNde7AP_vmess",
+      "tag": "🇨🇭 BBNCHnCi_vmess",
       "type": "vmess",
       "server": "109.104.152.144",
       "server_port": 12300,
@@ -894,7 +894,7 @@
       }
     },
     {
-      "tag": "cW51K5Zd_vmess",
+      "tag": "🇲🇰 hkJsMK70_vmess",
       "type": "vmess",
       "server": "www.dtku40.xyz",
       "server_port": 34500,
