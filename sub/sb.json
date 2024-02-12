@@ -106,7 +106,7 @@
         "auto",
         "direct",
         "🇺🇸 United States_vless_0",
-        "wusjBqti_vmess",
+        "U6tj9ZBs_vmess",
         "🇺🇸 United States_tuic_1",
         "🇺🇸 United States_vless_4",
         "None_vless_5",
@@ -509,7 +509,6 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸 United States_vless_0",
-        "wusjBqti_vmess",
         "🇺🇸 United States_tuic_1",
         "🇺🇸 United States_vless_4",
         "🇺🇸 United States_vless_5",
@@ -563,6 +562,7 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
+        "U6tj9ZBs_vmess",
         "None_vless_5",
         "None_vless_52",
         "None_vless_53",
@@ -675,7 +675,7 @@
       "type": "urltest",
       "outbounds": [
         "🇺🇸 United States_vless_0",
-        "wusjBqti_vmess",
+        "U6tj9ZBs_vmess",
         "🇺🇸 United States_tuic_1",
         "🇺🇸 United States_vless_4",
         "None_vless_5",
@@ -855,7 +855,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "wusjBqti_vmess",
+      "tag": "U6tj9ZBs_vmess",
       "type": "vmess",
       "server": "109.104.152.144",
       "server_port": 12300,
