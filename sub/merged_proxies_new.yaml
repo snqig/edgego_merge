@@ -52,7 +52,7 @@ proxies:
 - name: Taiwan_vmess_12
   type: vmess
   server: www.dtku40.xyz
-  port: 18840
+  port: 18810
   cipher: auto
   uuid: afb1ad76-0f6f-4cb8-983a-95f5b4708321
   alterId: 0
