@@ -62,31 +62,19 @@ proxies:
   network: ws
   ws-opts:
     path: /9tEYTPFN/
-- name: United States_hysteria_21
-  type: hysteria
+- name: United States_tuic_21
+  type: tuic
   server: 109.104.152.101
-  port: 32200
-  sni: bing.com
-  skip-cert-verify: true
+  port: 31102
+  udp: true
+  uuid: 7bda06fd-e4af-4115-8aa3-f021832cfa78
+  password: dongtaiwang.com
   alpn:
   - h3
-  protocol: udp
-  auth_str: dongtaiwang.com
-  up: 11
-  down: 55
-- name: United States_vmess_22
-  type: vmess
-  server: 108.181.5.18
-  port: 40010
-  cipher: auto
-  uuid: 44bee251-795d-4d7a-8ecb-c4322aec05be
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /xajVDSGJ/
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: United States_tuic_31
   type: tuic
   server: 109.104.152.101
@@ -100,20 +88,19 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_vless_41
-  type: vless
+- name: United States_tuic_41
+  type: tuic
   server: 109.104.152.101
-  port: 11111
+  port: 31101
   udp: true
-  uuid: 9cc39477-0d85-4419-84d4-fb7fc77668b3
-  tls: true
-  servername: m.media-amazon.com
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0
-    short-id: 6ba85179e30d4fc2
-  client-fingerprint: chrome
+  uuid: 7bda06fd-e4af-4115-8aa3-f021832cfa78
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: None_vless_51
   type: vless
   server: 198.41.193.226
@@ -1923,10 +1910,9 @@ proxy-groups:
   - United States_hysteria2_01
   - United States_tuic_11
   - Taiwan_vmess_12
-  - United States_hysteria_21
-  - United States_vmess_22
+  - United States_tuic_21
   - United States_tuic_31
-  - United States_vless_41
+  - United States_tuic_41
   - None_vless_51
   - None_vless_52
   - United States_vless_53
@@ -2087,10 +2073,9 @@ proxy-groups:
   - United States_hysteria2_01
   - United States_tuic_11
   - Taiwan_vmess_12
-  - United States_hysteria_21
-  - United States_vmess_22
+  - United States_tuic_21
   - United States_tuic_31
-  - United States_vless_41
+  - United States_tuic_41
   - None_vless_51
   - None_vless_52
   - United States_vless_53
