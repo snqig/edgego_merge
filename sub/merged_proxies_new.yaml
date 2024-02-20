@@ -9315,7 +9315,7 @@ proxies:
       host: larger-marketing-amounts-skin.trycloudflare.com
 - name: None_vmess_31
   type: vmess
-  server: 162.159.134.20
+  server: 162.159.134.22
   port: 8080
   cipher: auto
   uuid: 9084653a-ee34-4293-979e-7c2b50dffb84
