@@ -62,7 +62,7 @@ def process_sb(data, index):
         shadowtls_password = json_data["outbounds"][1]["password"]
         version = json_data["outbounds"][1]["version"]
         location = get_physical_location(server)
-        name = f"{location} shadowtls {index}"
+        name = f"{location} ss {index}"
         # 创建当前网址的proxy字典
         proxy = {
             "name": name,
@@ -109,7 +109,7 @@ def process_hysteria(data, index):
         alpn = json_data["alpn"]
         protocol = json_data["protocol"]
         location = get_physical_location(server)
-        name = f"{location} hy {index}"
+        name = f"{location} hysteria {index}"
 
         # 创建当前网址的proxy字典
         proxy = {
@@ -151,7 +151,7 @@ def process_hysteria2(data, index):
         insecure = json_data["tls"]["insecure"]
         sni = json_data["tls"]["sni"]
         location = get_physical_location(server)
-        name = f"{location} hy2 {index}"
+        name = f"{location} hysteria2 {index}"
 
         # 创建当前网址的proxy字典
         proxy = {
@@ -194,7 +194,7 @@ def process_xray(data, index):
             # udp转发
             isudp = True
             location = get_physical_location(server)
-            name = f"{location} reality {index}"
+            name = f"{location} vless {index}"
             
             # 根据network判断tcp
             if network == "tcp":
