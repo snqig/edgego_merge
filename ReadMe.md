@@ -7,15 +7,12 @@
 
 ## 如何修改为自己的warp节点
 
-<details>
-  <summary>点击展开/折叠</summary>
-
 可以用warp+机器人和提取wg节点替换掉配置文件中的wg信息
 
 [warp提取wireguard网站](https://replit.com/@misaka-blog/wgcf-profile-generator)
 
 [warp+机器人](https://t.me/generatewarpplusbot)
-<details>
+
 
 ## 订阅链接分享
 ### 不套warp版本（clashmeta）
