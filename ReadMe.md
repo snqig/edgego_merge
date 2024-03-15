@@ -15,7 +15,7 @@
 [warp提取wireguard网站](https://replit.com/@misaka-blog/wgcf-profile-generator)
 
 [warp+机器人](https://t.me/generatewarpplusbot)
-
+<details>
 
 ## 订阅链接分享
 ### 不套warp版本（clashmeta）
