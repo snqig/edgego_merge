@@ -117,7 +117,7 @@
         "🇫🇷 France hysteria2 2",
         "🇫🇷 France hysteria2 3",
         "None vless 1",
-        "None vless 2",
+        "🇺🇸 United States vless 2",
         "None vless 3"
       ]
     },
@@ -370,6 +370,7 @@
         "🇺🇸 United States hy 1",
         "🇺🇸 United States hy 3",
         "🇺🇸 United States hysteria2 1",
+        "🇺🇸 United States vless 2",
         "proxy"
       ]
     },
@@ -383,7 +384,6 @@
         "🇫🇷 France hysteria2 2",
         "🇫🇷 France hysteria2 3",
         "None vless 1",
-        "None vless 2",
         "None vless 3",
         "proxy"
       ]
@@ -404,7 +404,7 @@
         "🇫🇷 France hysteria2 2",
         "🇫🇷 France hysteria2 3",
         "None vless 1",
-        "None vless 2",
+        "🇺🇸 United States vless 2",
         "None vless 3"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -635,7 +635,7 @@
       }
     },
     {
-      "tag": "None vless 2",
+      "tag": "🇺🇸 United States vless 2",
       "type": "vless",
       "server": "yh6.dtku41.xyz",
       "server_port": 443,
