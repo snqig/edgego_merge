@@ -96,13 +96,21 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
-        "America",
-        "Others",
-        "direct"
+        "direct",
+        "🇹🇼 Taiwan hysteria 6",
+        "🇫🇷 France hysteria2 7",
+        "🇹🇼 Taiwan hysteria 9",
+        "🇫🇷 France hy 0",
+        "🇺🇸 United States hy 1",
+        "🇹🇼 Taiwan hy 2",
+        "🇺🇸 United States hy 3",
+        "🇫🇷 France hysteria2 0",
+        "🇺🇸 United States hysteria2 1",
+        "🇫🇷 France hysteria2 2",
+        "🇫🇷 France hysteria2 3",
+        "None vless 1",
+        "🇺🇸 United States vless 2",
+        "None vless 3"
       ]
     },
     {
@@ -315,7 +323,7 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "direct"
+        "Proxy"
       ]
     },
     {
@@ -331,14 +339,14 @@
       "tag": "Singapore",
       "type": "selector",
       "outbounds": [
-        "direct"
+        "Proxy"
       ]
     },
     {
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "direct"
+        "Proxy"
       ]
     },
     {
