@@ -97,6 +97,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇺🇸 United States hysteria2 0",
         "🇹🇼 Taiwan hysteria 6",
         "🇺🇸 United States hysteria2 7",
         "🇹🇼 Taiwan hysteria 9",
@@ -353,6 +354,7 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
+        "🇺🇸 United States hysteria2 0",
         "🇺🇸 United States hysteria2 7",
         "🇺🇸 United States hy 0",
         "🇺🇸 United States hy 1",
@@ -376,6 +378,7 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
+        "🇺🇸 United States hysteria2 0",
         "🇹🇼 Taiwan hysteria 6",
         "🇺🇸 United States hysteria2 7",
         "🇹🇼 Taiwan hysteria 9",
@@ -406,6 +409,23 @@
     {
       "type": "block",
       "tag": "block"
+    },
+    {
+      "tag": "🇺🇸 United States hysteria2 0",
+      "type": "hysteria2",
+      "server": "74.63.233.74",
+      "server_port": 33445,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
     },
     {
       "tag": "🇹🇼 Taiwan hysteria 6",
