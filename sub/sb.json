@@ -98,9 +98,9 @@
         "auto",
         "direct",
         "🇹🇼 Taiwan hysteria 6",
-        "🇫🇷 France hysteria2 7",
+        "🇺🇸 United States hysteria2 7",
         "🇹🇼 Taiwan hysteria 9",
-        "🇫🇷 France hy 0",
+        "🇺🇸 United States hy 0",
         "🇺🇸 United States hy 1",
         "🇹🇼 Taiwan hy 2",
         "🇺🇸 United States hy 3",
@@ -353,6 +353,8 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
+        "🇺🇸 United States hysteria2 7",
+        "🇺🇸 United States hy 0",
         "🇺🇸 United States hy 1",
         "🇺🇸 United States hy 3",
         "🇺🇸 United States hysteria2 1",
@@ -363,8 +365,6 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇫🇷 France hysteria2 7",
-        "🇫🇷 France hy 0",
         "🇫🇷 France hysteria2 0",
         "🇫🇷 France hysteria2 2",
         "🇫🇷 France hysteria2 3",
@@ -377,9 +377,9 @@
       "type": "urltest",
       "outbounds": [
         "🇹🇼 Taiwan hysteria 6",
-        "🇫🇷 France hysteria2 7",
+        "🇺🇸 United States hysteria2 7",
         "🇹🇼 Taiwan hysteria 9",
-        "🇫🇷 France hy 0",
+        "🇺🇸 United States hy 0",
         "🇺🇸 United States hy 1",
         "🇹🇼 Taiwan hy 2",
         "🇺🇸 United States hy 3",
@@ -425,16 +425,16 @@
       }
     },
     {
-      "tag": "🇫🇷 France hysteria2 7",
+      "tag": "🇺🇸 United States hysteria2 7",
       "type": "hysteria2",
-      "server": "51.159.77.153",
-      "server_port": 44190,
+      "server": "109.104.152.89",
+      "server_port": 22441,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
+        "server_name": "www.bing.com",
         "insecure": true,
         "alpn": [
           "h3"
@@ -459,16 +459,16 @@
       }
     },
     {
-      "tag": "🇫🇷 France hy 0",
+      "tag": "🇺🇸 United States hy 0",
       "type": "hysteria",
-      "server": "51.158.54.46",
-      "server_port": 55396,
+      "server": "108.181.5.133",
+      "server_port": 26022,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "server_name": "youku.com",
+        "server_name": "bing.com",
         "insecure": true,
         "alpn": [
           "h3"
@@ -546,8 +546,8 @@
     {
       "tag": "🇺🇸 United States hysteria2 1",
       "type": "hysteria2",
-      "server": "64.110.25.11",
-      "server_port": 33337,
+      "server": "104.192.224.140",
+      "server_port": 40391,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
