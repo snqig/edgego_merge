@@ -98,6 +98,10 @@
         "auto",
         "direct",
         "🇺🇸 United States hysteria2 0",
+        "🇺🇸 United States vless 2",
+        "🇺🇸 United States vless 3",
+        "🇺🇸 United States vless 4",
+        "🇺🇸 United States vless 5",
         "🇹🇼 Taiwan hysteria 6",
         "🇺🇸 United States hysteria2 7",
         "🇹🇼 Taiwan hysteria 9",
@@ -355,6 +359,10 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸 United States hysteria2 0",
+        "🇺🇸 United States vless 2",
+        "🇺🇸 United States vless 3",
+        "🇺🇸 United States vless 4",
+        "🇺🇸 United States vless 5",
         "🇺🇸 United States hysteria2 7",
         "🇺🇸 United States hy 0",
         "🇺🇸 United States hy 1",
@@ -379,6 +387,10 @@
       "type": "urltest",
       "outbounds": [
         "🇺🇸 United States hysteria2 0",
+        "🇺🇸 United States vless 2",
+        "🇺🇸 United States vless 3",
+        "🇺🇸 United States vless 4",
+        "🇺🇸 United States vless 5",
         "🇹🇼 Taiwan hysteria 6",
         "🇺🇸 United States hysteria2 7",
         "🇹🇼 Taiwan hysteria 9",
@@ -425,6 +437,98 @@
         "alpn": [
           "h3"
         ]
+      }
+    },
+    {
+      "tag": "🇺🇸 United States vless 2",
+      "type": "vless",
+      "server": "109.104.152.101",
+      "server_port": 13982,
+      "uuid": "85beb960-236b-4634-81ce-6ad66652f928",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE",
+          "short_id": "22f6b74f02cc88a6"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 United States vless 3",
+      "type": "vless",
+      "server": "109.104.152.101",
+      "server_port": 13982,
+      "uuid": "85beb960-236b-4634-81ce-6ad66652f928",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE",
+          "short_id": "22f6b74f02cc88a6"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 United States vless 4",
+      "type": "vless",
+      "server": "109.104.152.101",
+      "server_port": 13982,
+      "uuid": "85beb960-236b-4634-81ce-6ad66652f928",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE",
+          "short_id": "22f6b74f02cc88a6"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 United States vless 5",
+      "type": "vless",
+      "server": "109.104.152.101",
+      "server_port": 13982,
+      "uuid": "85beb960-236b-4634-81ce-6ad66652f928",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE",
+          "short_id": "22f6b74f02cc88a6"
+        }
       }
     },
     {
