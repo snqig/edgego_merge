@@ -102,9 +102,8 @@
         "🇺🇸 United States vless 3",
         "🇺🇸 United States vless 4",
         "🇺🇸 United States vless 5",
-        "🇹🇼 Taiwan hysteria 6",
         "🇺🇸 United States hysteria2 7",
-        "🇹🇼 Taiwan hysteria 9",
+        "🇺🇸 United States vless 8",
         "🇺🇸 United States hy 0",
         "🇺🇸 United States hy 1",
         "🇹🇼 Taiwan hy 2",
@@ -335,8 +334,6 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
-        "🇹🇼 Taiwan hysteria 6",
-        "🇹🇼 Taiwan hysteria 9",
         "🇹🇼 Taiwan hy 2"
       ]
     },
@@ -364,6 +361,7 @@
         "🇺🇸 United States vless 4",
         "🇺🇸 United States vless 5",
         "🇺🇸 United States hysteria2 7",
+        "🇺🇸 United States vless 8",
         "🇺🇸 United States hy 0",
         "🇺🇸 United States hy 1",
         "🇺🇸 United States hy 3",
@@ -391,9 +389,8 @@
         "🇺🇸 United States vless 3",
         "🇺🇸 United States vless 4",
         "🇺🇸 United States vless 5",
-        "🇹🇼 Taiwan hysteria 6",
         "🇺🇸 United States hysteria2 7",
-        "🇹🇼 Taiwan hysteria 9",
+        "🇺🇸 United States vless 8",
         "🇺🇸 United States hy 0",
         "🇺🇸 United States hy 1",
         "🇹🇼 Taiwan hy 2",
@@ -532,23 +529,6 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan hysteria 6",
-      "type": "hysteria",
-      "server": "www2.dtku48.xyz",
-      "server_port": 22334,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
       "tag": "🇺🇸 United States hysteria2 7",
       "type": "hysteria2",
       "server": "109.104.152.89",
@@ -566,20 +546,26 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan hysteria 9",
-      "type": "hysteria",
-      "server": "www.dtku50.xyz",
-      "server_port": 18470,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "",
+      "tag": "🇺🇸 United States vless 8",
+      "type": "vless",
+      "server": "109.104.152.101",
+      "server_port": 13982,
+      "uuid": "85beb960-236b-4634-81ce-6ad66652f928",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amazon.cn",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE",
+          "short_id": "22f6b74f02cc88a6"
+        }
       }
     },
     {
@@ -769,7 +755,7 @@
     {
       "tag": "None vless 3",
       "type": "vless",
-      "server": "fbi.gov",
+      "server": "104.26.1.40",
       "server_port": 443,
       "uuid": "ebfdccb6-7416-4b6e-860d-98587344d500",
       "packet_encoding": "xudp",
