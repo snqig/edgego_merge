@@ -110,7 +110,7 @@
         "🇫🇷 France hysteria2 2",
         "🇫🇷 France hysteria2 3",
         "None vless 1",
-        "🇺🇸 United States vless 2",
+        "None vless 2",
         "None vless 3"
       ]
     },
@@ -359,8 +359,7 @@
         "🇺🇸 United States hy 0",
         "🇺🇸 United States hy 1",
         "🇺🇸 United States hy 3",
-        "🇺🇸 United States hysteria2 1",
-        "🇺🇸 United States vless 2"
+        "🇺🇸 United States hysteria2 1"
       ]
     },
     {
@@ -371,6 +370,7 @@
         "🇫🇷 France hysteria2 2",
         "🇫🇷 France hysteria2 3",
         "None vless 1",
+        "None vless 2",
         "None vless 3"
       ]
     },
@@ -391,7 +391,7 @@
         "🇫🇷 France hysteria2 2",
         "🇫🇷 France hysteria2 3",
         "None vless 1",
-        "🇺🇸 United States vless 2",
+        "None vless 2",
         "None vless 3"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -617,7 +617,7 @@
     {
       "tag": "None vless 1",
       "type": "vless",
-      "server": "yh1.dtku41.xyz",
+      "server": "yh4.dtku41.xyz",
       "server_port": 443,
       "uuid": "ebfdccb6-7416-4b6e-860d-98587344d500",
       "packet_encoding": "xudp",
@@ -639,9 +639,9 @@
       }
     },
     {
-      "tag": "🇺🇸 United States vless 2",
+      "tag": "None vless 2",
       "type": "vless",
-      "server": "yh6.dtku41.xyz",
+      "server": "104.20.26.20",
       "server_port": 443,
       "uuid": "ebfdccb6-7416-4b6e-860d-98587344d500",
       "packet_encoding": "xudp",
