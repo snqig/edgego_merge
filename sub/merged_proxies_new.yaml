@@ -51,7 +51,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
     headers:
       host: concentrations-taxi-about-recognised.trycloudflare.com
-- name: United States vmess 12
+- name: None vmess 12
   type: vmess
   server: yh1.dtku41.xyz
   port: 8080
@@ -307,22 +307,22 @@ proxies:
   - h3
 - name: United States hysteria 3
   type: hysteria
-  server: 167.160.91.115
-  port: 41189
-  ports: 41189
-  auth_str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF
+  server: 109.104.152.194
+  port: 25304
+  ports: 47000-48000
+  auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: www.amazon.cn
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
-- name: France hysteria2 0
+- name: United States hysteria2 0
   type: hysteria2
-  server: 62.210.103.0
-  port: 22483
+  server: 109.104.152.194
+  port: 20352
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -359,7 +359,7 @@ proxy-groups:
   - DIRECT
   - United States hysteria2 01
   - None vmess 11
-  - United States vmess 12
+  - None vmess 12
   - None vmess 13
   - None vmess 14
   - United States vless 21
@@ -374,7 +374,7 @@ proxy-groups:
   - United States hysteria 1
   - Taiwan hysteria 2
   - United States hysteria 3
-  - France hysteria2 0
+  - United States hysteria2 0
   - United States hysteria2 1
   - France hysteria2 2
   - France hysteria2 3
@@ -386,7 +386,7 @@ proxy-groups:
   proxies:
   - United States hysteria2 01
   - None vmess 11
-  - United States vmess 12
+  - None vmess 12
   - None vmess 13
   - None vmess 14
   - United States vless 21
@@ -401,7 +401,7 @@ proxy-groups:
   - United States hysteria 1
   - Taiwan hysteria 2
   - United States hysteria 3
-  - France hysteria2 0
+  - United States hysteria2 0
   - United States hysteria2 1
   - France hysteria2 2
   - France hysteria2 3

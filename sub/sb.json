@@ -731,7 +731,7 @@
     {
       "tag": "None vless 2",
       "type": "vless",
-      "server": "104.20.26.20",
+      "server": "104.19.58.80",
       "server_port": 443,
       "uuid": "ebfdccb6-7416-4b6e-860d-98587344d500",
       "packet_encoding": "xudp",
