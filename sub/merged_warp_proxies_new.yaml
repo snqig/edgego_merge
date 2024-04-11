@@ -82,7 +82,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: hang-broke-john-neither.trycloudflare.com
-- name: None vmess 13
+- name: France vmess 13
   type: vmess
   server: yh4.dtku41.xyz
   port: 8080
@@ -391,7 +391,7 @@ proxy-groups:
   - United States hysteria2 01
   - None vmess 11
   - None vmess 12
-  - None vmess 13
+  - France vmess 13
   - None vmess 14
   - United States vless 21
   - United States vless 31
@@ -415,7 +415,7 @@ proxy-groups:
   - United States hysteria2 01
   - None vmess 11
   - None vmess 12
-  - None vmess 13
+  - France vmess 13
   - None vmess 14
   - United States vless 21
   - United States vless 31
@@ -439,7 +439,7 @@ proxy-groups:
   - United States hysteria2 01
   - None vmess 11
   - None vmess 12
-  - None vmess 13
+  - France vmess 13
   - None vmess 14
   - United States vless 21
   - United States vless 31
