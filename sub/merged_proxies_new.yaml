@@ -277,11 +277,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States hysteria 1
+- name: France hysteria 1
   type: hysteria
-  server: 173.234.25.52
-  port: 48919
-  ports: 48919
+  server: 62.210.243.131
+  port: 18702
+  ports: 18702
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -308,8 +308,8 @@ proxies:
 - name: United States hysteria 3
   type: hysteria
   server: 109.104.152.194
-  port: 25304
-  ports: 47000-48000
+  port: 58510
+  ports: 58510
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -371,7 +371,7 @@ proxy-groups:
   - United States vless 81
   - United States ss 91
   - United States hysteria 0
-  - United States hysteria 1
+  - France hysteria 1
   - Taiwan hysteria 2
   - United States hysteria 3
   - United States hysteria2 0
@@ -398,7 +398,7 @@ proxy-groups:
   - United States vless 81
   - United States ss 91
   - United States hysteria 0
-  - United States hysteria 1
+  - France hysteria 1
   - Taiwan hysteria 2
   - United States hysteria 3
   - United States hysteria2 0
