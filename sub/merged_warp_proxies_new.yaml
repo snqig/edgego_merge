@@ -67,7 +67,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
     headers:
       host: concentrations-taxi-about-recognised.trycloudflare.com
-- name: None vmess 12
+- name: United States vmess 12
   type: vmess
   server: yh1.dtku41.xyz
   port: 8080
@@ -82,9 +82,9 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: hang-broke-john-neither.trycloudflare.com
-- name: France vmess 13
+- name: United States vmess 13
   type: vmess
-  server: yh4.dtku41.xyz
+  server: yh7.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
@@ -307,11 +307,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan hysteria 2
+- name: France hysteria 2
   type: hysteria
-  server: www.dtku40.xyz
-  port: 18490
-  ports: 18490
+  server: 62.210.243.131
+  port: 18702
+  ports: 18702
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -337,8 +337,8 @@ proxies:
   - h3
 - name: United States hysteria2 0
   type: hysteria2
-  server: 109.104.152.194
-  port: 20352
+  server: 104.192.224.141
+  port: 40391
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -351,18 +351,18 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France hysteria2 2
+- name: United States hysteria2 2
   type: hysteria2
-  server: 62.210.103.0
-  port: 22483
+  server: 104.192.224.141
+  port: 40391
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France hysteria2 3
+- name: United States hysteria2 3
   type: hysteria2
-  server: 51.159.77.198
-  port: 53967
+  server: 104.192.224.141
+  port: 40391
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -390,8 +390,8 @@ proxy-groups:
   proxies:
   - United States hysteria2 01
   - None vmess 11
-  - None vmess 12
-  - France vmess 13
+  - United States vmess 12
+  - United States vmess 13
   - None vmess 14
   - United States vless 21
   - United States vless 31
@@ -403,19 +403,19 @@ proxy-groups:
   - United States ss 91
   - United States hysteria 0
   - France hysteria 1
-  - Taiwan hysteria 2
+  - France hysteria 2
   - United States hysteria 3
   - United States hysteria2 0
   - United States hysteria2 1
-  - France hysteria2 2
-  - France hysteria2 3
+  - United States hysteria2 2
+  - United States hysteria2 3
 - name: 手动选择
   type: select
   proxies:
   - United States hysteria2 01
   - None vmess 11
-  - None vmess 12
-  - France vmess 13
+  - United States vmess 12
+  - United States vmess 13
   - None vmess 14
   - United States vless 21
   - United States vless 31
@@ -427,19 +427,19 @@ proxy-groups:
   - United States ss 91
   - United States hysteria 0
   - France hysteria 1
-  - Taiwan hysteria 2
+  - France hysteria 2
   - United States hysteria 3
   - United States hysteria2 0
   - United States hysteria2 1
-  - France hysteria2 2
-  - France hysteria2 3
+  - United States hysteria2 2
+  - United States hysteria2 3
 - name: 负载均衡
   type: load-balance
   proxies:
   - United States hysteria2 01
   - None vmess 11
-  - None vmess 12
-  - France vmess 13
+  - United States vmess 12
+  - United States vmess 13
   - None vmess 14
   - United States vless 21
   - United States vless 31
@@ -451,12 +451,12 @@ proxy-groups:
   - United States ss 91
   - United States hysteria 0
   - France hysteria 1
-  - Taiwan hysteria 2
+  - France hysteria 2
   - United States hysteria 3
   - United States hysteria2 0
   - United States hysteria2 1
-  - France hysteria2 2
-  - France hysteria2 3
+  - United States hysteria2 2
+  - United States hysteria2 3
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
