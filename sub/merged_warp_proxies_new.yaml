@@ -67,7 +67,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
     headers:
       host: concentrations-taxi-about-recognised.trycloudflare.com
-- name: None vmess 12
+- name: United States vmess 12
   type: vmess
   server: yh1.dtku41.xyz
   port: 8080
@@ -390,7 +390,7 @@ proxy-groups:
   proxies:
   - United States hysteria2 01
   - None vmess 11
-  - None vmess 12
+  - United States vmess 12
   - United States vmess 13
   - None vmess 14
   - United States vless 21
@@ -414,7 +414,7 @@ proxy-groups:
   proxies:
   - United States hysteria2 01
   - None vmess 11
-  - None vmess 12
+  - United States vmess 12
   - United States vmess 13
   - None vmess 14
   - United States vless 21
@@ -438,7 +438,7 @@ proxy-groups:
   proxies:
   - United States hysteria2 01
   - None vmess 11
-  - None vmess 12
+  - United States vmess 12
   - United States vmess 13
   - None vmess 14
   - United States vless 21
