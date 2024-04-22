@@ -97,7 +97,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸 United States hysteria2 0",
+        "🇺🇸 United States tuic 0",
         "🇺🇸 United States vless 2",
         "🇺🇸 United States vless 3",
         "🇺🇸 United States vless 4",
@@ -108,13 +108,13 @@
         "🇫🇷 France hy 1",
         "🇫🇷 France hy 2",
         "🇺🇸 United States hy 3",
-        "🇺🇸 United States hysteria2 0 2",
+        "🇺🇸 United States hysteria2 0",
         "🇺🇸 United States hysteria2 1",
         "🇺🇸 United States hysteria2 2",
         "🇺🇸 United States hysteria2 3",
         "None vless 1",
-        "None vless 2",
-        "None vless 3"
+        "🇳🇱 The Netherlands vless 2",
+        "🇺🇸 United States vless 3 2"
       ]
     },
     {
@@ -355,7 +355,7 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 United States hysteria2 0",
+        "🇺🇸 United States tuic 0",
         "🇺🇸 United States vless 2",
         "🇺🇸 United States vless 3",
         "🇺🇸 United States vless 4",
@@ -364,10 +364,11 @@
         "🇺🇸 United States vless 8",
         "🇺🇸 United States hy 0",
         "🇺🇸 United States hy 3",
-        "🇺🇸 United States hysteria2 0 2",
+        "🇺🇸 United States hysteria2 0",
         "🇺🇸 United States hysteria2 1",
         "🇺🇸 United States hysteria2 2",
-        "🇺🇸 United States hysteria2 3"
+        "🇺🇸 United States hysteria2 3",
+        "🇺🇸 United States vless 3 2"
       ]
     },
     {
@@ -377,15 +378,14 @@
         "🇫🇷 France hy 1",
         "🇫🇷 France hy 2",
         "None vless 1",
-        "None vless 2",
-        "None vless 3"
+        "🇳🇱 The Netherlands vless 2"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 United States hysteria2 0",
+        "🇺🇸 United States tuic 0",
         "🇺🇸 United States vless 2",
         "🇺🇸 United States vless 3",
         "🇺🇸 United States vless 4",
@@ -396,13 +396,13 @@
         "🇫🇷 France hy 1",
         "🇫🇷 France hy 2",
         "🇺🇸 United States hy 3",
-        "🇺🇸 United States hysteria2 0 2",
+        "🇺🇸 United States hysteria2 0",
         "🇺🇸 United States hysteria2 1",
         "🇺🇸 United States hysteria2 2",
         "🇺🇸 United States hysteria2 3",
         "None vless 1",
-        "None vless 2",
-        "None vless 3"
+        "🇳🇱 The Netherlands vless 2",
+        "🇺🇸 United States vless 3 2"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -421,20 +421,22 @@
       "tag": "block"
     },
     {
-      "tag": "🇺🇸 United States hysteria2 0",
-      "type": "hysteria2",
+      "tag": "🇺🇸 United States tuic 0",
+      "type": "tuic",
       "server": "74.63.233.74",
-      "server_port": 33445,
+      "server_port": 33441,
+      "uuid": "a258065f-9502-4fe6-b3ed-cf7440e25150",
       "password": "dongtaiwang.com",
-      "up_mbps": 10,
-      "down_mbps": 100,
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
         "alpn": [
           "h3"
-        ]
+        ],
+        "insecure": false
       }
     },
     {
@@ -638,7 +640,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States hysteria2 0 2",
+      "tag": "🇺🇸 United States hysteria2 0",
       "type": "hysteria2",
       "server": "104.192.224.141",
       "server_port": 40391,
@@ -730,7 +732,7 @@
       }
     },
     {
-      "tag": "None vless 2",
+      "tag": "🇳🇱 The Netherlands vless 2",
       "type": "vless",
       "server": "yh9.dtku41.xyz",
       "server_port": 443,
@@ -754,7 +756,7 @@
       }
     },
     {
-      "tag": "None vless 3",
+      "tag": "🇺🇸 United States vless 3 2",
       "type": "vless",
       "server": "yh7.dtku41.xyz",
       "server_port": 443,
