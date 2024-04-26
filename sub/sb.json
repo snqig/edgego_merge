@@ -112,7 +112,7 @@
         "🇺🇸 United States hysteria2 1",
         "🇺🇸 United States hysteria2 2",
         "🇺🇸 United States hysteria2 3",
-        "🇺🇸 United States vless 1",
+        "None vless 1",
         "🇺🇸 United States vless 2 2",
         "None vless 3"
       ]
@@ -368,7 +368,6 @@
         "🇺🇸 United States hysteria2 1",
         "🇺🇸 United States hysteria2 2",
         "🇺🇸 United States hysteria2 3",
-        "🇺🇸 United States vless 1",
         "🇺🇸 United States vless 2 2"
       ]
     },
@@ -378,6 +377,7 @@
       "outbounds": [
         "🇫🇷 France hy 1",
         "🇫🇷 France hy 2",
+        "None vless 1",
         "None vless 3"
       ]
     },
@@ -400,7 +400,7 @@
         "🇺🇸 United States hysteria2 1",
         "🇺🇸 United States hysteria2 2",
         "🇺🇸 United States hysteria2 3",
-        "🇺🇸 United States vless 1",
+        "None vless 1",
         "🇺🇸 United States vless 2 2",
         "None vless 3"
       ],
@@ -708,7 +708,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States vless 1",
+      "tag": "None vless 1",
       "type": "vless",
       "server": "yh6.dtku41.xyz",
       "server_port": 443,
