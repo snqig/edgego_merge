@@ -98,9 +98,8 @@
         "auto",
         "direct",
         "🇺🇸 United States tuic 0",
-        "🇺🇸 United States vless 2",
-        "🇺🇸 United States vless 3",
-        "🇺🇸 United States vless 4",
+        "🇺🇸 United States hysteria 1",
+        "🇺🇸 United States tuic 4",
         "🇺🇸 United States vless 5",
         "🇺🇸 United States hysteria2 7",
         "🇺🇸 United States vless 8",
@@ -113,7 +112,7 @@
         "🇺🇸 United States hysteria2 2",
         "🇺🇸 United States hysteria2 3",
         "None vless 1",
-        "🇺🇸 United States vless 2 2",
+        "🇳🇱 The Netherlands vless 2",
         "None vless 3"
       ]
     },
@@ -356,9 +355,8 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸 United States tuic 0",
-        "🇺🇸 United States vless 2",
-        "🇺🇸 United States vless 3",
-        "🇺🇸 United States vless 4",
+        "🇺🇸 United States hysteria 1",
+        "🇺🇸 United States tuic 4",
         "🇺🇸 United States vless 5",
         "🇺🇸 United States hysteria2 7",
         "🇺🇸 United States vless 8",
@@ -367,8 +365,7 @@
         "🇺🇸 United States hysteria2 0",
         "🇺🇸 United States hysteria2 1",
         "🇺🇸 United States hysteria2 2",
-        "🇺🇸 United States hysteria2 3",
-        "🇺🇸 United States vless 2 2"
+        "🇺🇸 United States hysteria2 3"
       ]
     },
     {
@@ -378,6 +375,7 @@
         "🇫🇷 France hy 1",
         "🇫🇷 France hy 2",
         "None vless 1",
+        "🇳🇱 The Netherlands vless 2",
         "None vless 3"
       ]
     },
@@ -386,9 +384,8 @@
       "type": "urltest",
       "outbounds": [
         "🇺🇸 United States tuic 0",
-        "🇺🇸 United States vless 2",
-        "🇺🇸 United States vless 3",
-        "🇺🇸 United States vless 4",
+        "🇺🇸 United States hysteria 1",
+        "🇺🇸 United States tuic 4",
         "🇺🇸 United States vless 5",
         "🇺🇸 United States hysteria2 7",
         "🇺🇸 United States vless 8",
@@ -401,7 +398,7 @@
         "🇺🇸 United States hysteria2 2",
         "🇺🇸 United States hysteria2 3",
         "None vless 1",
-        "🇺🇸 United States vless 2 2",
+        "🇳🇱 The Netherlands vless 2",
         "None vless 3"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -440,72 +437,39 @@
       }
     },
     {
-      "tag": "🇺🇸 United States vless 2",
-      "type": "vless",
-      "server": "109.104.152.101",
-      "server_port": 13982,
-      "uuid": "85beb960-236b-4634-81ce-6ad66652f928",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇺🇸 United States hysteria 1",
+      "type": "hysteria",
+      "server": "108.181.5.22",
+      "server_port": 44557,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "itunes.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE",
-          "short_id": "22f6b74f02cc88a6"
-        }
+        "server_name": "bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
       }
     },
     {
-      "tag": "🇺🇸 United States vless 3",
-      "type": "vless",
-      "server": "109.104.152.101",
-      "server_port": 13982,
-      "uuid": "85beb960-236b-4634-81ce-6ad66652f928",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇺🇸 United States tuic 4",
+      "type": "tuic",
+      "server": "108.181.5.132",
+      "server_port": 9727,
+      "uuid": "02b0c83f-5fa4-4f08-8a9f-d9cae4a7a419",
+      "password": "02b0c83f-5fa4-4f08-8a9f-d9cae4a7a419",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "itunes.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE",
-          "short_id": "22f6b74f02cc88a6"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 United States vless 4",
-      "type": "vless",
-      "server": "109.104.152.101",
-      "server_port": 13982,
-      "uuid": "85beb960-236b-4634-81ce-6ad66652f928",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "itunes.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE",
-          "short_id": "22f6b74f02cc88a6"
-        }
+        "alpn": [
+          "h3"
+        ],
+        "insecure": false
       }
     },
     {
@@ -732,7 +696,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States vless 2 2",
+      "tag": "🇳🇱 The Netherlands vless 2",
       "type": "vless",
       "server": "yh9.dtku41.xyz",
       "server_port": 443,
