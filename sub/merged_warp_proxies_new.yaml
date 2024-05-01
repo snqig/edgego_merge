@@ -78,7 +78,7 @@ proxies:
     path: /argox-vl?ed=2048
     headers:
       host: giving-hide-provisions-corrected.trycloudflare.com
-- name: None vless 22
+- name: The Netherlands vless 22
   type: vless
   server: yh9.dtku41.xyz
   port: 443
@@ -348,7 +348,7 @@ proxy-groups:
   - United States tuic 01
   - United States hysteria 11
   - None vless 21
-  - None vless 22
+  - The Netherlands vless 22
   - None vless 23
   - None vless 24
   - None vmess 31
@@ -372,7 +372,7 @@ proxy-groups:
   - United States tuic 01
   - United States hysteria 11
   - None vless 21
-  - None vless 22
+  - The Netherlands vless 22
   - None vless 23
   - None vless 24
   - None vmess 31
@@ -396,7 +396,7 @@ proxy-groups:
   - United States tuic 01
   - United States hysteria 11
   - None vless 21
-  - None vless 22
+  - The Netherlands vless 22
   - None vless 23
   - None vless 24
   - None vmess 31
