@@ -102,7 +102,7 @@
         "None vless 2",
         "None vless 2 2",
         "None vless 2 3",
-        "🇺🇸 United States vless 2",
+        "None vless 2 4",
         "🇺🇸 United States tuic 4",
         "🇺🇸 United States vless 5",
         "🇺🇸 United States hysteria2 7",
@@ -116,7 +116,7 @@
         "🇺🇸 United States hysteria2 2",
         "🇺🇸 United States hysteria2 3",
         "None vless 1",
-        "None vless 2 4",
+        "🇺🇸 United States vless 2",
         "None vless 3"
       ]
     },
@@ -360,7 +360,6 @@
       "outbounds": [
         "🇺🇸 United States tuic 0",
         "🇺🇸 United States hysteria 1",
-        "🇺🇸 United States vless 2",
         "🇺🇸 United States tuic 4",
         "🇺🇸 United States vless 5",
         "🇺🇸 United States hysteria2 7",
@@ -370,7 +369,8 @@
         "🇺🇸 United States hysteria2 0",
         "🇺🇸 United States hysteria2 1",
         "🇺🇸 United States hysteria2 2",
-        "🇺🇸 United States hysteria2 3"
+        "🇺🇸 United States hysteria2 3",
+        "🇺🇸 United States vless 2"
       ]
     },
     {
@@ -380,10 +380,10 @@
         "None vless 2",
         "None vless 2 2",
         "None vless 2 3",
+        "None vless 2 4",
         "🇫🇷 France hy 1",
         "🇫🇷 France hy 2",
         "None vless 1",
-        "None vless 2 4",
         "None vless 3"
       ]
     },
@@ -396,7 +396,7 @@
         "None vless 2",
         "None vless 2 2",
         "None vless 2 3",
-        "🇺🇸 United States vless 2",
+        "None vless 2 4",
         "🇺🇸 United States tuic 4",
         "🇺🇸 United States vless 5",
         "🇺🇸 United States hysteria2 7",
@@ -410,7 +410,7 @@
         "🇺🇸 United States hysteria2 2",
         "🇺🇸 United States hysteria2 3",
         "None vless 1",
-        "None vless 2 4",
+        "🇺🇸 United States vless 2",
         "None vless 3"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -468,15 +468,10 @@
     {
       "tag": "None vless 2",
       "type": "vless",
-      "server": "yh7.dtku41.xyz",
-      "server_port": 443,
+      "server": "104.26.9.12",
+      "server_port": 80,
       "uuid": "1a62379a-e160-45a3-8361-3e6b5021d192",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "giving-hide-provisions-corrected.trycloudflare.com"
-      },
       "transport": {
         "type": "ws",
         "path": "/argox-vl",
@@ -490,15 +485,10 @@
     {
       "tag": "None vless 2 2",
       "type": "vless",
-      "server": "yh9.dtku41.xyz",
-      "server_port": 443,
+      "server": "104.19.21.24",
+      "server_port": 80,
       "uuid": "1a62379a-e160-45a3-8361-3e6b5021d192",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "giving-hide-provisions-corrected.trycloudflare.com"
-      },
       "transport": {
         "type": "ws",
         "path": "/argox-vl",
@@ -512,15 +502,10 @@
     {
       "tag": "None vless 2 3",
       "type": "vless",
-      "server": "yh6.dtku41.xyz",
-      "server_port": 443,
+      "server": "104.26.9.54",
+      "server_port": 80,
       "uuid": "1a62379a-e160-45a3-8361-3e6b5021d192",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "giving-hide-provisions-corrected.trycloudflare.com"
-      },
       "transport": {
         "type": "ws",
         "path": "/argox-vl",
@@ -532,17 +517,12 @@
       }
     },
     {
-      "tag": "🇺🇸 United States vless 2",
+      "tag": "None vless 2 4",
       "type": "vless",
-      "server": "yh1.dtku41.xyz",
-      "server_port": 443,
+      "server": "104.19.38.28",
+      "server_port": 80,
       "uuid": "1a62379a-e160-45a3-8361-3e6b5021d192",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "giving-hide-provisions-corrected.trycloudflare.com"
-      },
       "transport": {
         "type": "ws",
         "path": "/argox-vl",
@@ -796,7 +776,7 @@
       }
     },
     {
-      "tag": "None vless 2 4",
+      "tag": "🇺🇸 United States vless 2",
       "type": "vless",
       "server": "yh9.dtku41.xyz",
       "server_port": 443,
