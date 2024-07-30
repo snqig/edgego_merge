@@ -1466,7 +1466,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States vmess 096
+- name: None vmess 096
   type: vmess
   server: japan.com
   port: 2086
@@ -1496,7 +1496,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States vmess 098
+- name: None vmess 098
   type: vmess
   server: russia.com
   port: 2086
@@ -2406,8 +2406,8 @@ proxies:
 - name: United States hysteria 0
   type: hysteria
   server: 38.135.52.192
-  port: 23456
-  ports: 23456
+  port: 10451
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -2420,8 +2420,8 @@ proxies:
 - name: United States hysteria 1
   type: hysteria
   server: 38.135.52.192
-  port: 23456
-  ports: 23456
+  port: 10451
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -2434,8 +2434,8 @@ proxies:
 - name: United States hysteria 2
   type: hysteria
   server: 38.135.52.192
-  port: 23456
-  ports: 23456
+  port: 10451
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -2448,8 +2448,8 @@ proxies:
 - name: United States hysteria 3
   type: hysteria
   server: 38.135.52.192
-  port: 23456
-  ports: 23456
+  port: 10451
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -2462,34 +2462,34 @@ proxies:
 - name: United States hysteria2 0
   type: hysteria2
   server: 207.90.239.157
-  port: 22334
+  port: 15669
   password: dongtaiwang.com
   fast-open: true
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: United States hysteria2 1
   type: hysteria2
   server: 207.90.239.157
-  port: 22334
+  port: 15669
   password: dongtaiwang.com
   fast-open: true
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: United States hysteria2 2
   type: hysteria2
   server: 207.90.239.157
-  port: 22334
+  port: 15669
   password: dongtaiwang.com
   fast-open: true
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: United States hysteria2 3
   type: hysteria2
   server: 207.90.239.157
-  port: 22334
+  port: 15669
   password: dongtaiwang.com
   fast-open: true
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
 proxy-groups:
 - name: 节点选择
@@ -2607,9 +2607,9 @@ proxy-groups:
   - Canada vmess 093
   - None vmess 094
   - United States vmess 095
-  - United States vmess 096
+  - None vmess 096
   - None vmess 097
-  - United States vmess 098
+  - None vmess 098
   - None vmess 099
   - None vmess 0100
   - None vmess 0101
@@ -2776,9 +2776,9 @@ proxy-groups:
   - Canada vmess 093
   - None vmess 094
   - United States vmess 095
-  - United States vmess 096
+  - None vmess 096
   - None vmess 097
-  - United States vmess 098
+  - None vmess 098
   - None vmess 099
   - None vmess 0100
   - None vmess 0101
@@ -2945,9 +2945,9 @@ proxy-groups:
   - Canada vmess 093
   - None vmess 094
   - United States vmess 095
-  - United States vmess 096
+  - None vmess 096
   - None vmess 097
-  - United States vmess 098
+  - None vmess 098
   - None vmess 099
   - None vmess 0100
   - None vmess 0101
