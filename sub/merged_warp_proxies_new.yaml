@@ -1526,7 +1526,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip15.6016725.xyz
-- name: United States vmess 0100
+- name: None vmess 0100
   type: vmess
   server: skk.moe
   port: 2095
@@ -3083,7 +3083,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip20.6929198.xyz
-- name: United States vmess 298
+- name: None vmess 298
   type: vmess
   server: russia.com
   port: 2082
@@ -3113,7 +3113,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip20.6929198.xyz
-- name: None vmess 2100
+- name: United States vmess 2100
   type: vmess
   server: skk.moe
   port: 2082
@@ -3623,7 +3623,7 @@ proxy-groups:
   - None vmess 097
   - None vmess 098
   - None vmess 099
-  - United States vmess 0100
+  - None vmess 0100
   - None vmess 0101
   - None vmess 11
   - None vmess 12
@@ -3726,9 +3726,9 @@ proxy-groups:
   - None vmess 295
   - None vmess 296
   - None vmess 297
-  - United States vmess 298
+  - None vmess 298
   - None vmess 299
-  - None vmess 2100
+  - United States vmess 2100
   - None vmess 2101
   - None vmess 31
   - None vmess 32
@@ -3856,7 +3856,7 @@ proxy-groups:
   - None vmess 097
   - None vmess 098
   - None vmess 099
-  - United States vmess 0100
+  - None vmess 0100
   - None vmess 0101
   - None vmess 11
   - None vmess 12
@@ -3959,9 +3959,9 @@ proxy-groups:
   - None vmess 295
   - None vmess 296
   - None vmess 297
-  - United States vmess 298
+  - None vmess 298
   - None vmess 299
-  - None vmess 2100
+  - United States vmess 2100
   - None vmess 2101
   - None vmess 31
   - None vmess 32
@@ -4089,7 +4089,7 @@ proxy-groups:
   - None vmess 097
   - None vmess 098
   - None vmess 099
-  - United States vmess 0100
+  - None vmess 0100
   - None vmess 0101
   - None vmess 11
   - None vmess 12
@@ -4192,9 +4192,9 @@ proxy-groups:
   - None vmess 295
   - None vmess 296
   - None vmess 297
-  - United States vmess 298
+  - None vmess 298
   - None vmess 299
-  - None vmess 2100
+  - United States vmess 2100
   - None vmess 2101
   - None vmess 31
   - None vmess 32
