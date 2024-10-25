@@ -3022,7 +3022,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip20.6929198.xyz
-- name: United States vmess 295
+- name: None vmess 295
   type: vmess
   server: ip.sb
   port: 2082
@@ -3692,7 +3692,7 @@ proxy-groups:
   - None vmess 292
   - Canada vmess 293
   - None vmess 294
-  - United States vmess 295
+  - None vmess 295
   - None vmess 296
   - None vmess 297
   - None vmess 298
@@ -3928,7 +3928,7 @@ proxy-groups:
   - None vmess 292
   - Canada vmess 293
   - None vmess 294
-  - United States vmess 295
+  - None vmess 295
   - None vmess 296
   - None vmess 297
   - None vmess 298
