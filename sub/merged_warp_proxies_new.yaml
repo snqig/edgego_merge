@@ -1511,7 +1511,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip19.6016725.xyz
-- name: United States vmess 099
+- name: None vmess 099
   type: vmess
   server: singapore.com
   port: 2095
@@ -1526,7 +1526,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip19.6016725.xyz
-- name: None vmess 0100
+- name: United States vmess 0100
   type: vmess
   server: skk.moe
   port: 2095
@@ -3023,7 +3023,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip25.6929198.xyz
-- name: United States vmess 294
+- name: None vmess 294
   type: vmess
   server: icook.tw
   port: 2082
@@ -3053,7 +3053,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip25.6929198.xyz
-- name: United States vmess 296
+- name: None vmess 296
   type: vmess
   server: japan.com
   port: 2082
@@ -3068,7 +3068,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip25.6929198.xyz
-- name: United States vmess 297
+- name: None vmess 297
   type: vmess
   server: malaysia.com
   port: 2082
@@ -3622,8 +3622,8 @@ proxy-groups:
   - None vmess 096
   - None vmess 097
   - None vmess 098
-  - United States vmess 099
-  - None vmess 0100
+  - None vmess 099
+  - United States vmess 0100
   - None vmess 0101
   - None vmess 11
   - None vmess 12
@@ -3722,10 +3722,10 @@ proxy-groups:
   - United States vmess 291
   - None vmess 292
   - Canada vmess 293
-  - United States vmess 294
+  - None vmess 294
   - None vmess 295
-  - United States vmess 296
-  - United States vmess 297
+  - None vmess 296
+  - None vmess 297
   - None vmess 298
   - None vmess 299
   - None vmess 2100
@@ -3855,8 +3855,8 @@ proxy-groups:
   - None vmess 096
   - None vmess 097
   - None vmess 098
-  - United States vmess 099
-  - None vmess 0100
+  - None vmess 099
+  - United States vmess 0100
   - None vmess 0101
   - None vmess 11
   - None vmess 12
@@ -3955,10 +3955,10 @@ proxy-groups:
   - United States vmess 291
   - None vmess 292
   - Canada vmess 293
-  - United States vmess 294
+  - None vmess 294
   - None vmess 295
-  - United States vmess 296
-  - United States vmess 297
+  - None vmess 296
+  - None vmess 297
   - None vmess 298
   - None vmess 299
   - None vmess 2100
@@ -4088,8 +4088,8 @@ proxy-groups:
   - None vmess 096
   - None vmess 097
   - None vmess 098
-  - United States vmess 099
-  - None vmess 0100
+  - None vmess 099
+  - United States vmess 0100
   - None vmess 0101
   - None vmess 11
   - None vmess 12
@@ -4188,10 +4188,10 @@ proxy-groups:
   - United States vmess 291
   - None vmess 292
   - Canada vmess 293
-  - United States vmess 294
+  - None vmess 294
   - None vmess 295
-  - United States vmess 296
-  - United States vmess 297
+  - None vmess 296
+  - None vmess 297
   - None vmess 298
   - None vmess 299
   - None vmess 2100
