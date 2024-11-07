@@ -3082,7 +3082,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip28.6929198.xyz
-- name: None vmess 299
+- name: United States vmess 299
   type: vmess
   server: singapore.com
   port: 2082
@@ -3696,7 +3696,7 @@ proxy-groups:
   - None vmess 296
   - None vmess 297
   - None vmess 298
-  - None vmess 299
+  - United States vmess 299
   - None vmess 2100
   - None vmess 2101
   - None vmess 31
@@ -3932,7 +3932,7 @@ proxy-groups:
   - None vmess 296
   - None vmess 297
   - None vmess 298
-  - None vmess 299
+  - United States vmess 299
   - None vmess 2100
   - None vmess 2101
   - None vmess 31
