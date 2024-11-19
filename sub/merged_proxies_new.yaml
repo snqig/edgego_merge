@@ -1495,7 +1495,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: c1.6016725.xyz
-- name: None vmess 099
+- name: United States vmess 099
   type: vmess
   server: singapore.com
   port: 2095
@@ -1510,7 +1510,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: c1.6016725.xyz
-- name: None vmess 0100
+- name: United States vmess 0100
   type: vmess
   server: skk.moe
   port: 2095
@@ -1525,7 +1525,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: c1.6016725.xyz
-- name: United States vmess 0101
+- name: None vmess 0101
   type: vmess
   server: www.visa.com
   port: 2095
@@ -3591,9 +3591,9 @@ proxy-groups:
   - United States vmess 096
   - United States vmess 097
   - None vmess 098
-  - None vmess 099
-  - None vmess 0100
-  - United States vmess 0101
+  - United States vmess 099
+  - United States vmess 0100
+  - None vmess 0101
   - None vmess 11
   - None vmess 12
   - None vmess 13
@@ -3827,9 +3827,9 @@ proxy-groups:
   - United States vmess 096
   - United States vmess 097
   - None vmess 098
-  - None vmess 099
-  - None vmess 0100
-  - United States vmess 0101
+  - United States vmess 099
+  - United States vmess 0100
+  - None vmess 0101
   - None vmess 11
   - None vmess 12
   - None vmess 13
