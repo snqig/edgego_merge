@@ -1480,7 +1480,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: c2.6016725.xyz
-- name: None vmess 098
+- name: United States vmess 098
   type: vmess
   server: russia.com
   port: 2095
@@ -1510,7 +1510,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: c2.6016725.xyz
-- name: None vmess 0100
+- name: United States vmess 0100
   type: vmess
   server: skk.moe
   port: 2095
@@ -3007,7 +3007,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip30.6929198.xyz
-- name: United States vmess 294
+- name: None vmess 294
   type: vmess
   server: icook.tw
   port: 2082
@@ -3052,7 +3052,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip30.6929198.xyz
-- name: None vmess 297
+- name: United States vmess 297
   type: vmess
   server: malaysia.com
   port: 2082
@@ -3112,7 +3112,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip30.6929198.xyz
-- name: United States vmess 2101
+- name: None vmess 2101
   type: vmess
   server: www.visa.com
   port: 2082
@@ -3590,9 +3590,9 @@ proxy-groups:
   - United States vmess 095
   - None vmess 096
   - United States vmess 097
-  - None vmess 098
+  - United States vmess 098
   - None vmess 099
-  - None vmess 0100
+  - United States vmess 0100
   - None vmess 0101
   - None vmess 11
   - None vmess 12
@@ -3691,14 +3691,14 @@ proxy-groups:
   - United States vmess 291
   - None vmess 292
   - Canada vmess 293
-  - United States vmess 294
+  - None vmess 294
   - None vmess 295
   - None vmess 296
-  - None vmess 297
+  - United States vmess 297
   - None vmess 298
   - United States vmess 299
   - None vmess 2100
-  - United States vmess 2101
+  - None vmess 2101
   - None vmess 31
   - None vmess 32
   - None vmess 33
@@ -3826,9 +3826,9 @@ proxy-groups:
   - United States vmess 095
   - None vmess 096
   - United States vmess 097
-  - None vmess 098
+  - United States vmess 098
   - None vmess 099
-  - None vmess 0100
+  - United States vmess 0100
   - None vmess 0101
   - None vmess 11
   - None vmess 12
@@ -3927,14 +3927,14 @@ proxy-groups:
   - United States vmess 291
   - None vmess 292
   - Canada vmess 293
-  - United States vmess 294
+  - None vmess 294
   - None vmess 295
   - None vmess 296
-  - None vmess 297
+  - United States vmess 297
   - None vmess 298
   - United States vmess 299
   - None vmess 2100
-  - United States vmess 2101
+  - None vmess 2101
   - None vmess 31
   - None vmess 32
   - None vmess 33
