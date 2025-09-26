@@ -219,38 +219,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States hysteria2 0
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States hysteria2 1
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States hysteria2 2
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States hysteria2 3
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
 - name: Unknown vless 0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -314,10 +282,6 @@ proxy-groups:
   - The Netherlands hysteria 1
   - The Netherlands hysteria 2
   - The Netherlands hysteria 3
-  - United States hysteria2 0
-  - United States hysteria2 1
-  - United States hysteria2 2
-  - United States hysteria2 3
   - Unknown vless 0
   - Unknown vless 3
 - name: 手动选择
@@ -337,10 +301,6 @@ proxy-groups:
   - The Netherlands hysteria 1
   - The Netherlands hysteria 2
   - The Netherlands hysteria 3
-  - United States hysteria2 0
-  - United States hysteria2 1
-  - United States hysteria2 2
-  - United States hysteria2 3
   - Unknown vless 0
   - Unknown vless 3
 - name: 负载均衡
@@ -360,10 +320,6 @@ proxy-groups:
   - The Netherlands hysteria 1
   - The Netherlands hysteria 2
   - The Netherlands hysteria 3
-  - United States hysteria2 0
-  - United States hysteria2 1
-  - United States hysteria2 2
-  - United States hysteria2 3
   - Unknown vless 0
   - Unknown vless 3
   url: http://www.gstatic.com/generate_204
