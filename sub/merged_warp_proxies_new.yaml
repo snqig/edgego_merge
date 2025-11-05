@@ -129,7 +129,7 @@ proxies:
   down: 55 Mbps
 - name: France hysteria 71
   type: hysteria
-  server: 62.210.127.217
+  server: 62.210.10.186
   port: 50011
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -139,9 +139,9 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France hysteria 81
+- name: Unknown hysteria 81
   type: hysteria
-  server: 62.210.127.217
+  server: 2001:bc8:32d7:158::2
   port: 50011
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -165,8 +165,8 @@ proxies:
   down: 55 Mbps
 - name: The Netherlands hysteria 0
   type: hysteria
-  server: 109.104.153.91
-  port: 37519
+  server: 109.104.154.97
+  port: 48429
   ports: 10000-20000
   auth_str: dongtaiwang.com
   up: 80
@@ -179,8 +179,8 @@ proxies:
   - h3
 - name: The Netherlands hysteria 1
   type: hysteria
-  server: 109.104.153.91
-  port: 37519
+  server: 109.104.154.97
+  port: 48429
   ports: 10000-20000
   auth_str: dongtaiwang.com
   up: 80
@@ -193,8 +193,8 @@ proxies:
   - h3
 - name: The Netherlands hysteria 2
   type: hysteria
-  server: 109.104.153.91
-  port: 37519
+  server: 109.104.154.97
+  port: 48429
   ports: 10000-20000
   auth_str: dongtaiwang.com
   up: 80
@@ -207,8 +207,8 @@ proxies:
   - h3
 - name: The Netherlands hysteria 3
   type: hysteria
-  server: 109.104.153.91
-  port: 37519
+  server: 109.104.154.97
+  port: 48429
   ports: 10000-20000
   auth_str: dongtaiwang.com
   up: 80
@@ -276,7 +276,7 @@ proxy-groups:
   - Unknown hysteria2 51
   - Unknown hysteria 61
   - France hysteria 71
-  - France hysteria 81
+  - Unknown hysteria 81
   - Unknown hysteria 91
   - The Netherlands hysteria 0
   - The Netherlands hysteria 1
@@ -295,7 +295,7 @@ proxy-groups:
   - Unknown hysteria2 51
   - Unknown hysteria 61
   - France hysteria 71
-  - France hysteria 81
+  - Unknown hysteria 81
   - Unknown hysteria 91
   - The Netherlands hysteria 0
   - The Netherlands hysteria 1
@@ -314,7 +314,7 @@ proxy-groups:
   - Unknown hysteria2 51
   - Unknown hysteria 61
   - France hysteria 71
-  - France hysteria 81
+  - Unknown hysteria 81
   - Unknown hysteria 91
   - The Netherlands hysteria 0
   - The Netherlands hysteria 1
