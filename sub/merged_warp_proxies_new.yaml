@@ -163,62 +163,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: The Netherlands hysteria 0
-  type: hysteria
-  server: 109.104.154.97
-  port: 48429
-  ports: 10000-20000
-  auth_str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: The Netherlands hysteria 1
-  type: hysteria
-  server: 109.104.154.97
-  port: 48429
-  ports: 10000-20000
-  auth_str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: The Netherlands hysteria 2
-  type: hysteria
-  server: 109.104.154.97
-  port: 48429
-  ports: 10000-20000
-  auth_str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: The Netherlands hysteria 3
-  type: hysteria
-  server: 109.104.154.97
-  port: 48429
-  ports: 10000-20000
-  auth_str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: Unknown vless 0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -278,10 +222,6 @@ proxy-groups:
   - France hysteria 71
   - Unknown hysteria 81
   - Unknown hysteria 91
-  - The Netherlands hysteria 0
-  - The Netherlands hysteria 1
-  - The Netherlands hysteria 2
-  - The Netherlands hysteria 3
   - Unknown vless 0
   - Unknown vless 3
 - name: 手动选择
@@ -297,10 +237,6 @@ proxy-groups:
   - France hysteria 71
   - Unknown hysteria 81
   - Unknown hysteria 91
-  - The Netherlands hysteria 0
-  - The Netherlands hysteria 1
-  - The Netherlands hysteria 2
-  - The Netherlands hysteria 3
   - Unknown vless 0
   - Unknown vless 3
 - name: 负载均衡
@@ -316,10 +252,6 @@ proxy-groups:
   - France hysteria 71
   - Unknown hysteria 81
   - Unknown hysteria 91
-  - The Netherlands hysteria 0
-  - The Netherlands hysteria 1
-  - The Netherlands hysteria 2
-  - The Netherlands hysteria 3
   - Unknown vless 0
   - Unknown vless 3
   url: http://www.gstatic.com/generate_204
